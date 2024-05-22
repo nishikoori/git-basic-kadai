@@ -1,0 +1,16 @@
+PS C:\Users\t_nis> cd C:\Users\t_nis\OneDrive\デスクトップ\work\lesson
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson> git init git_challenge
+Initialized empty Git repository in C:/Users/t_nis/OneDrive/繝・せ繧ｯ繝医ャ繝・work/lesson/git_challenge/.git/
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson> cd git_challenge
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson\git_challenge> git add hello_world.txt
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 2532764] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson\git_challenge> git add hello_world.txt       
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson\git_challenge> git commit -m "日本語訳を追記"
+[main 072de5e] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+)
+PS C:\Users\t_nis\OneDrive\デスクトップ\work\lesson\git_challenge> git log --oneline                                                        
+072de5e (HEAD -> main) 日本語訳を追記
+2532764 hello_world.txtを追加
